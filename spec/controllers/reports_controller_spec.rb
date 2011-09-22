@@ -26,7 +26,7 @@ describe ReportsController do
   def valid_attributes
     {}
   end
-
+ 
   describe "GET index" do
     it "assigns all reports as @reports" do
       report = Report.create! valid_attributes
